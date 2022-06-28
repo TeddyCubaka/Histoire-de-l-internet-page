@@ -1,0 +1,114 @@
+@font-face
+{
+  font-family: 'Baskervville bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/baskervville/baskervvilleBoldBT.woff');
+  format('woff');
+}
+
+
+body
+{
+  background-color: #C7C7C7;
+  font-familly: roboto;
+  padding: 6em;
+}
+/*le titre principal*/
+h1
+{
+  font-weight: bolder;
+  font-family: 'Baskervville bold';
+}
+
+/*les liens*/
+
+a
+{
+  color: red;
+  font-weight: bold;
+}
+
+/*la partie tableau*/
+
+.caption
+{
+  text-align: left;
+  color: red;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 30px;
+}
+table
+{
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+tr:nth-child(even)
+{
+  background: #dcdcdc;
+}
+tr:nth-child(odd) 
+{
+  background: #c7c7c7;
+}
+td, th
+{
+  padding: 0.5rem;
+}
+tr:hover
+{
+  background-color: #989898;
+}
+.tr-bg-black
+{
+  background-color: #363636;
+}
+
+/*partie d'image*/
+
+.image
+{
+  margin: auto;
+  width: 100%;
+}
+.block-of-image
+{
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 5%;
+  background-color: #363636;
+  margin: auto;
+  display: block;
+}
+.legend-of-image
+{
+  color: white;
+  text-align: center;
+  display: inline;
+}
+
+/*les titres en rouge*/
+
+h2
+{
+  color: red;
+}
+
+/*le texte cadré*/
+
+.text-encadré
+{
+  border: 3px dashed #6000af;
+  color: #6000af;
+  background: #b6B6B6;
+  padding: 1rem;
+  margin: 1em 4em;
+}
+
+/* place aux dictons */
+
+.dicton
+{
+  padding-left: 2em;
+}
